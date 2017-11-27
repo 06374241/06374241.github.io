@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+div.imglist>img {
+    width: 30%;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(40, 101, 129);
+    width: 35%;
+}
+
+.imglist {
+    text-align: center;
+}
+
+.photo {
+    height: 14vw;
+    width: 14vw;
+    background-image: url(../photo/photo.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1vw;
+}
+
+.info {
+    margin-left: 10px;
+    float: left;
+}
+
+.container {
+    padding: 25px;
+    margin: 20px 100px 20px 100px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+}
+
+.name {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.head {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #167f5e;
+}
+
+.btn-blue {
+    background-color: #606db7;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #3b4994;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    font-size: 10px;
+}
